@@ -1,0 +1,61 @@
+#full
+{
+    background-color: cadetblue;
+    height: 480px;
+    width: 330px;
+    border-radius: 10%;
+    margin: auto;
+}
+
+#flex
+{   
+    justify-content: center;
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    flex-basis: 100px;
+}
+
+#upper
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+p{ font-size: 25px; }
+
+.Input
+{
+    border-style: solid;
+    border-color: black;
+    width: 250px;
+    height: 30px;
+    text-align: end;
+}
+
+.Output
+{
+    border-style: solid;
+    border-color: black;
+    width: 250px;
+    height: 50px;
+    text-align: end;
+}
+
+button
+{
+    width: 50px;
+    height: 40px;
+    border-radius: 20%;
+    background-color: aqua;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover 
+{
+    background-color: palegreen;
+    color: white;
+}
